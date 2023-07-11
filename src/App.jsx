@@ -39,7 +39,8 @@ function App() {
   return (
     <>
       <div>
-        <input type="text" placeholder="Code" id="code" />
+        <h1 id="h">Verify Certificates</h1>
+        <input type="text" placeholder="Verification Code" id="code" />
         <p></p>
         <button id="verify" onClick={extractCode}>Verify</button>
       </div>
